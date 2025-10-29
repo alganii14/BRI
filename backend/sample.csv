@@ -1,0 +1,11 @@
+PN,NAMA_RMFT,KODE_UKER,KC,PROD,NO_REK,DUP,NAMA,TGL,STRATEGY,SEGMENT,PIPELINE,PROYEKSI
+PN001,RMFT Jakarta,UK001,KC Jakarta Pusat,PROD001,REK001,DUP001,Budi Santoso,2025-01-15,Kolaborasi Perusahaan Anak,KONSUMER,Pipeline A,1500000.50
+PN002,RMFT Bandung,UK002,KC Bandung Utara,PROD002,REK002,DUP002,Siti Nurhaliza,2025-02-20,Optimalisasi Business Cluster,Merchant,Pipeline B,2300000.75
+PN003,RMFT Surabaya,UK003,KC Surabaya Timur,PROD003,REK003,DUP003,Ahmad Dahlan,2025-03-10,Optimalisasi Digital Channel,Mikro,Pipeline C,1800000.00
+PN004,RMFT Medan,UK004,KC Medan Selatan,PROD004,REK004,DUP004,Dewi Lestari,2025-04-05,Optimalisasi Nasabah Prio, BOD, BOC,Prioritas,Pipeline A,3200000.25
+PN005,RMFT Makassar,UK005,KC Makassar Barat,PROD005,REK005,DUP005,Rizki Pratama,2025-05-18,Penguatan Produk & Fungsi RM,RITEL BADAN USAHA,Pipeline B,2700000.50
+PN006,RMFT Palembang,UK006,KC Palembang Tengah,PROD006,REK006,DUP006,Linda Wijaya,2025-06-22,Peningkatan Payroll Berkualitas,RITEL INDIVIDU,Pipeline C,1950000.00
+PN007,RMFT Denpasar,UK007,KC Denpasar Utara,PROD007,REK007,DUP007,Eko Prasetyo,2025-07-14,Reaktivasi Rek Dormant,RITEL NON INDIVIDU,Pipeline A,2850000.75
+PN008,RMFT Semarang,UK008,KC Semarang Barat,PROD008,REK008,DUP008,Maya Safitri,2025-08-09,Rekening Trx Debitur,Ritel Perusahaan,Pipeline B,2100000.00
+PN009,RMFT Yogyakarta,UK009,KC Yogyakarta Selatan,PROD009,REK009,DUP009,Bambang Susilo,2025-09-25,Kolaborasi Perusahaan Anak,SME,Pipeline C,1650000.50
+PN010,RMFT Malang,UK010,KC Malang Timur,PROD010,REK010,DUP010,Sari Indah,2025-10-30,Optimalisasi Business Cluster,WEALTH,Pipeline A,3500000.00
