@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"io"
 	"os"
+	"path/filepath"
 	"pipeline-backend/models"
 	"strconv"
 	"strings"
@@ -206,11 +207,19 @@ func (c *RFMTController) ImportCSV(ctx *fiber.Ctx) error {
 		})
 	}
 
+	// Ensure uploads directory exists
+	uploadDir := "./uploads"
+	if err := os.MkdirAll(uploadDir, 0755); err != nil {
+		return ctx.Status(fiber.StatusInternalServerError).JSON(fiber.Map{
+			"error": fmt.Sprintf("Failed to create uploads directory: %v", err),
+		})
+	}
+
 	// Save uploaded file temporarily
-	tempFile := "./uploads/" + file.Filename
+	tempFile := filepath.Join(uploadDir, file.Filename)
 	if err := ctx.SaveFile(file, tempFile); err != nil {
 		return ctx.Status(fiber.StatusInternalServerError).JSON(fiber.Map{
-			"error": "Failed to save uploaded file",
+			"error": fmt.Sprintf("Failed to save uploaded file: %v", err),
 		})
 	}
 
